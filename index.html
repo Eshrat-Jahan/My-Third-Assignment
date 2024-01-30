@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <html data-theme="light">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/70ceb667d8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        .manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header class="md:mx-24">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+
+                    </div>
+                    <a class=" text-4xl font-extrabold manrope">Hockey<span class="text-orange-600">'</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-base font-bold "><span class="text-orange-600 manrope">Home</span></a></li>
+                        <li><a class="text-base	font-bold manrope">About</a></li>
+                        <li><a class="text-base	font-bold manrope">Pages</a></li>
+                        <li><a class="text-base	font-bold manrope">Blog</a></li>
+                        <li><a class="text-base font-bold manrope">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end flex gap-5">
+                    <a class="hidden lg:flex"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a class=" btn bg-[#FF4240] text-xl font-bold text-white">Get Ticket</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Banner section  -->
+        <section>
+            <div class=" mt-10 carousel w-full lg:h-[550px]">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="./Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="./Images/2.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="./Images/3.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="./Images/4.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+    <main class="md:mx-24">
+        <!-- Professional Hockeys Club  -->
+        <section class="mt-20">
+            <div class="flex flex-col text-center mb-9">
+                <h1 class="font-extrabold text-4xl manrope	">Professional Hockeys Club</h1>
+                <p class="font-medium text-base manrope	">Hockey's is a premier professional hockey team dedicated to
+                    excellence on and off the ice.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-4 mx-14 gap-6 text-center">
+                <div>
+                    <div class="radial-progress  text-[#FF4240]" style="--value:87;" role="progressbar ">87%</div>
+                    <h4 class="text-xl font-semibold">Prayer Facility</h4>
+                    <p class="text-base font-normal">This progress report provides an overview of the prayer facility at
+                        our professional club.</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar">95%</div>
+                    <h4 class="text-xl font-semibold">Experienced Coach</h4>
+                    <p class="text-base font-normal">This progress report provides an overview of the experienced coach
+                        facility at our club.</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar">90%</div>
+                    <h4 class="text-xl font-semibold">Senior Player</h4>
+                    <p class="text-base font-normal">This progress report provides an overview of the senior player
+                        facility at our club.</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar">80%</div>
+                    <h4 class="text-xl font-semibold ">Training Ground</h4>
+                    <p class="text-base font-normal">This progress report provides an overview of the training ground
+                        facility at our club.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Program Section  -->
+        <section>
+            <div>
+                <h1>
+                    Program Section
+                </h1>
+                <p>The Program section of our hockey club serves as the backbone of our organization, dedicated to the
+                    development and enhancement of players at all skill levels.</p>
+            </div>
+            <div>1
+                <div class="flex">2
+                    <div>3
+                        <div class="card w-96 bg-base-100 shadow-xl image-full">
+                            <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Shoes" /></figure>
+                            <div class="card-body">
+                                <h2 class="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <div class="card-actions justify-end">
+                                    <button class="btn btn-primary">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>3
+                    <div>4
+                        <div class="card w-96 bg-base-100 shadow-xl image-full">
+                            <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Shoes" /></figure>
+                            <div class="card-body">
+                                <h2 class="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <div class="card-actions justify-end">
+                                    <button class="btn btn-primary">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>4
+                </div>2
+                <div>5
+                    <div class="card md:w-[1200px] bg-base-100 shadow-xl image-full">
+                        <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Shoes!</h2>
+                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>5
+            </div>1
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
